@@ -1,0 +1,33 @@
+/* src/stylesheet/Resource.css */
+
+/* This is optionnal css */
+
+.container {
+    padding: 2rem;
+  }
+  
+  h1.display-4 {
+    color: #007bff;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .list-group-item {
+    transition: background-color 0.3s ease;
+  }
+  
+  .list-group-item:hover {
+    background-color: #f8f9fa;
+  }
+  
+  .text-decoration-none {
+    color: #007bff;
+  }
+  
+  .text-decoration-none:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  

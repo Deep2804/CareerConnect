@@ -1,0 +1,16 @@
+.stats {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 20px;
+    background: #fff;
+  }
+  
+  .stat h2 {
+    font-size: 2rem;
+    color: #007bff;
+  }
+  
+  .stat p {
+    font-size: 1rem;
+  }
+  

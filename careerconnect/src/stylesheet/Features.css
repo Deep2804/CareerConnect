@@ -1,0 +1,45 @@
+.features {
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+  }
+  
+  .features h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .features p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .feature-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .feature-item {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #f0f0f0;
+    border-radius: 0.25rem;
+  }
+  
+  .feature-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-item p {
+    font-size: 1rem;
+  }
+  
+  .dashboard-img {
+    display: block;
+    margin: 2rem auto;
+    max-width: 100%;
+  }
+  

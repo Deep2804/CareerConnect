@@ -1,0 +1,162 @@
+/* Center the entire sign-up page content */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5; /* Light background color */
+  padding-top: 70px; /* Adjust for fixed header */
+}
+
+/* Style the form */
+.form-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: 10px 0; /* Added margin for spacing */
+}
+
+/* Style form elements */
+.form-content h3 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-content .form-label {
+  font-weight: bold;
+}
+
+.form-content .form-control {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: calc(100% - 22px); /* Adjust width to consider padding and border */
+}
+
+.form-content .form-check-input {
+  margin-right: 10px;
+}
+
+.form-content .btn-primary {
+  background-color: #007bff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Added margin for spacing */
+}
+
+.form-content .btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.form-content .form-text {
+  font-size: 12px;
+  color: #6c757d;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.form-content .form-text.text-danger {
+  color: #dc3545; /* Red color for error text */
+}
+
+.form-content .form-check-label {
+  font-size: 14px;
+}
+
+/* Additional styles for the skill selection section */
+.dropdown {
+  position: relative;
+  margin-bottom: 15px; /* Added margin for spacing */
+}
+
+.dropdown-toggle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #007bff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+}
+
+.dropdown-toggle:hover {
+  border-color: #007bff;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  width: 100%;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-height: 250px;
+  /* overflow-y: auto; */
+  z-index: 1000;
+  margin-top: 5px; /* Added margin for spacing */
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-menu input {
+  width: calc(100% - 22px); /* Adjust width to consider padding and border */
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dropdown-item {
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.dropdown-item:hover,
+.dropdown-item.selected {
+  background-color: #007bff;
+  color: #fff;
+}
+
+/* Styles for selected skills */
+.selected-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.selected-skill {
+  display: flex;
+  align-items: center;
+  background-color: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.selected-skill .remove-skill {
+  margin-left: 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #ff4757;
+  transition: color 0.3s;
+}
+
+.selected-skill .remove-skill:hover {
+  color: #ff6b81;
+}

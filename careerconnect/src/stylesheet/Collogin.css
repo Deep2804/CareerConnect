@@ -1,0 +1,66 @@
+/* Center the entire login page content */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f2f5; /* Light background color */
+  }
+  
+  /* Style the form */
+  .form-content {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  /* Style form elements */
+  .form-content h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-content .form-label {
+    font-weight: bold;
+  }
+  
+  .form-content .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: calc(100% - 22px); /* Adjust width to consider padding and border */
+  }
+  
+  .form-content .form-check-input {
+    margin-right: 10px;
+  }
+  
+  .form-content .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .form-content .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  .form-content .form-text {
+    font-size: 12px;
+    color: #6c757d;
+    margin-bottom: 15px;
+    display: block;
+  }
+  
+  .form-content .form-check-label {
+    font-size: 14px;
+  }
+  
